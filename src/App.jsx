@@ -1,18 +1,25 @@
-
-
-import Calculator from "./components/calculator/Calculator";
-import Meals from "./components/Meals-Api-project/Meals";
-
+import Form from "./components/form/Form"
+import './components/form/styles.css';
 
 function App() {
-
 
   return (
     <>
       {/* <Counter /> */}
       {/* <Todo /> */}
       {/* <Meals /> */}
-      <Calculator />
+      {/* <Calculator /> */}
+      {/* <ToggleBackgroundColor /> */}
+      {/* <HiddenSearchBar />  */}
+      {/* <Testmonials /> */}
+
+      {/* {accordionData.map(({title, content})=>(
+    
+        <Accordion title={title} content={content} key={title} />
+      ))} */}
+
+<Form />
+
 
     </>
   )
