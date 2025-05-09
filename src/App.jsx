@@ -1,12 +1,19 @@
-import './components/styles.css';
-import Counter from "./components/Counter";
+
+
+import Calculator from "./components/calculator/Calculator";
+import Meals from "./components/Meals-Api-project/Meals";
+
 
 function App() {
 
 
   return (
     <>
-      <Counter />
+      {/* <Counter /> */}
+      {/* <Todo /> */}
+      {/* <Meals /> */}
+      <Calculator />
+
     </>
   )
 }
